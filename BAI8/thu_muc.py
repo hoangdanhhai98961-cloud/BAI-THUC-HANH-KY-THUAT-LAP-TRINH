@@ -1,0 +1,10 @@
+import turtle, random
+colors =["red","green","blue","orange","purple","pink","yellow"]
+painter = turtle.Turtle()
+painter.pensize(3)
+for i in range(10):
+     color = random.choice(color)
+     painter.circle(1000)
+     painter.right(30)
+     painter.left(60)
+     painter.setposition(0, 0)
